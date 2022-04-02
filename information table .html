@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Table</title>
+    <style>
+        th{border: 2px solid black;
+        height: 40px;
+    width: 50%;
+    text-align: right;
+
+}
+td{
+    border: 2px  solid black;
+text-align:left;
+}
+table{
+    border: 2px solid black; 
+    margin-left: 25%;
+}
+.c3{
+    text-align: center;
+    background-color: black; color: aliceblue;
+    font-size: 160%;
+}
+.c1{
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.c2{
+ padding-bottom: 25%;
+}
+
+
+    </style>
+    </head> 
+<body>
+    <table>
+        <form>
+            <tr><th colspan="2"   class="c1">REPORT FORM</th></tr>
+            <tr><th colspan="2"  class="c3">INFORMATION TABLE</th></tr>
+            <tr><th>Name</th>
+                <td><input type="text"><br>Enter your full name</td>
+            </tr>
+            <tr> <th >Email</th>
+                <td><input type="email"><br>Enter your email</td>
+            </tr>
+            <tr>
+                <th >Passward</th>
+                <td><input type="text"><br>Enter a code</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><input type="text" ><br>Complete Address</td>
+            </tr>
+            <tr>
+                <th >Country</th>
+                <td><select id="country "name="country">
+                    <option value="Pakistan"selected>Pakistan</option>
+                    <option value="china">China</option>
+                    <option value="india">India</option>
+                    <option value="England">England</option>
+                </select></td>
+            </tr>
+            <tr><th >Gender</th>
+            <td><input type="radio"name="Gender">male<input type="radio"name="Gender">Female</td></tr>
+            <tr>
+                <th >Your web site</th>
+                <td><input type="url"
+                    placeholder="http//"><br>
+                Provide your web site url if exists(not necessary)
+                </td>
+            </tr>
+            <tr><th class="c2">Other Information  about you </th>
+                <td> <textarea name="message" cols="20" rows="10" ></textarea><br>Write any other information that is not present here</td>
+            </tr>
+            <tr><th class="c2">Hobbies</th>
+                <td><input type="checkbox">Reading<br>
+                <input type="checkbox">Listening music<br>
+                <input type="checkbox">Gardening<br>
+                <input type="checkbox">Swimming<br>
+                <input type="checkbox">Athletics<br>Check all that apply</td>
+
+            </tr>
+
+            <tr >
+                <th ><button >Send in my Report</button></th>
+                <td><button >Report Form</button></td>
+
+            </tr><br>
+           
+
+            
+        </form>
+       
+    </table>
+
+
+
+
+</body>
+</html>
